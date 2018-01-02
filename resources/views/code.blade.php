@@ -22,7 +22,24 @@
 
             <div class="row">
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    
+                    <form action="download" method="get">
+                    <table class="table  table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center">Title</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                          
+                            <tr>
+                                <td class="text-center"></td>
+                                <td><input type="submit" value="" class="btn btn-danger" ></td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                    </form>    
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <form action="code" method="post">
@@ -36,8 +53,9 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="submit" class="btn btn-primary" value="upload"> 
                         &nbsp;&nbsp;
-                        <button href="/download" class="btn btn-success">Download!</button> 
+
                     </form>
+                   
                     <br><br><br><br>
                 </div>
                 <script>
